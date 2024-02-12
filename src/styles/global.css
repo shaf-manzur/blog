@@ -1,0 +1,48 @@
+:root {
+  --container-width: 600px;
+  /* --container-padding: 0rem; */
+}
+
+nav span {
+  padding-right: 10px
+}
+
+body {
+  font-family: system, -apple-system, san francisco, roboto, segoe ui, helvetica neue, helvetica, lucida grande, arial, sans-serif;
+  padding: 0 10px;
+  line-height: 1.2;
+  font-size: 16px;
+  color: #111;
+  background-color: #fffefa
+}
+
+a:link {
+  color: #06f
+}
+
+li {
+  line-height: 1.4
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1
+}
+
+#yotsuba {
+  background-image: url('/assets/yotsuba.png');
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 370px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+  #yotsuba {
+    display: none !important
+  }
+}

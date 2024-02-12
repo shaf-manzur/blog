@@ -1,0 +1,100 @@
+---
+import Layout from "../layouts/Base.astro";
+import Container from "../components/Container.astro";
+
+const seo = {
+  title: "freshfriedfish.github.io",
+  description: "Hi! I'm shaf.",
+};
+---
+
+<link rel="stylesheet" href="/styles/global.css" />
+<Layout {seo}>
+  <Container>
+    <h1>Hi! I'm shaf.</h1>
+    <p>
+      I'm a CS student interested in full stack, graphics programming, & math
+    </p>
+    <nav style="display: flex; align-items: center; margin-top: 20px;">
+      <span
+        ><a href="https://github.com/freshfriedfish"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            width="25px"
+          /></a
+        ></span
+      >
+
+      <span
+        ><a href="https://gitlab.com/smanzur"
+          ><img
+            src="https://static-00.iconduck.com/assets.00/gitlab-icon-2048x1885-1o0cwkbx.png"
+            width="25px"
+          /></a
+        ></span
+      >
+      <span
+        ><a href="mailto:shafayatmanzur@gmail.com"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
+            width="25px"
+          /></a
+        ></span
+      >
+      <span
+        ><a href="https://www.linkedin.com/in/shafmanzur/"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
+            width="23px"
+          /></a
+        ></span
+      >
+      <span style="border-left: 1px solid; height: 25px;"></span>
+      <span
+        ><a href="https://www.last.fm/user/ranceyera"
+          ><img
+            src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_lastfm-1024.png"
+            height="25px"
+          /></a
+        ></span
+      >
+    </nav>
+    <hr />
+    <h2>Currently working on</h2>
+    <ul>
+      <li>
+        Founder of the <a href="https://svgtools.github.io/"><u>SVG Tools</u></a>
+        project
+      </li>
+      <li>
+        ...many things concerning SVG Tools, including an AI/ML tool, and an online
+        editor. Blog coming soon
+      </li>
+    </ul>
+
+    <h2>Past projects</h2>
+    <ul>
+      <li>
+        <a href="https://freshfriedfish.github.io/osu-rad/"
+          ><u>radial-designer:</u></a
+        > Online tool for osu! players to create and export perfect geometric patterns
+      </li>
+      <li>
+        <a href="https://www.npmjs.com/package/svgosu"><u>svgosu:</u></a> CLI for
+        converting SVG files into osu! objects. Available on npm
+      </li>
+      <li>
+        <a href="https://gitlab.com/LibreFoodPantry/client-solutions/nest/NEST"
+          ><u>NEST:</u></a
+        > NCC's food pantry app for Android
+      </li>
+      <li>My personal site: Thanks for stopping by 🙂</li>
+    </ul>
+    <!-- <h2>Yapping</h2>
+    <ul>
+      <li>coming soon™️</li>
+    </ul> -->
+
+    <!-- <div id="yotsuba"></div> -->
+  </Container>
+</Layout>
