@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://freshfriedfish.github.io",
+  site: "https://smanzur.me",
   integrations: [sitemap()]
 });
